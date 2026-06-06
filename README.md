@@ -4,9 +4,9 @@
 
 ## 技术栈
 
-**后端:** Django 4.2, DRF, PostgreSQL 14, XGBoost, Scikit-learn, SHAP
-**前端:** Vue 3, Vite 8, TypeScript, Element Plus, ECharts 6, Pinia 3, 高德地图
-**部署:** Docker, Nginx, Gunicorn
+**后端:** Django 4.2, DRF, PostgreSQL 14, XGBoost, Scikit-learn, SHAP  
+**前端:** Vue 3, Vite 8, TypeScript, Element Plus, ECharts 6, Pinia 3, 高德地图  
+**部署:** Docker, Nginx, Gunicorn  
 
 ## 项目结构
 
