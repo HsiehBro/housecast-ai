@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+*.pkl
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sw?
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Database
+db.sqlite3
+
+# Media & Static
+media/
+staticfiles/
+
+# ML models
+backend/ml/models/*.pkl
+
+# Claude Code local settings
+.claude/
+docs/

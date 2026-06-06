@@ -1,0 +1,40 @@
+[project]
+name = "house-price-backend"
+version = "0.1.0"
+description = "House Price Prediction System - Django Backend"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=4.2,<5.0",
+    "djangorestframework",
+    "djangorestframework-simplejwt",
+    "django-cors-headers",
+    "django-filter",
+    "psycopg2-binary",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "joblib",
+    "numpy",
+    "requests",
+    "python-dotenv",
+    "Pillow",
+    "gunicorn>=22.0",
+    "beautifulsoup4>=4.14.3",
+    "lxml>=6.1.0",
+    "selenium>=4.43.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "flake8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = ["**/__pycache__", "*.pyc", "db.sqlite3", ".env"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["config", "users", "houses", "prediction", "ml", "crawler"]
